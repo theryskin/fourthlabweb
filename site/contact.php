@@ -23,6 +23,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     echo "<a class='btn' href='index.php?name=$name&email=" . urlencode($_POST['email']) . "&source=" . urlencode($_POST['source']) . "'>Заполнить снова</a>";
 } else {
-    echo "<p>Ошибка: данные формы не были отправлены.</p>";
+    echo "<p>Ошибка: данные формы не были отправлены!</p>";
 }
 ?>
